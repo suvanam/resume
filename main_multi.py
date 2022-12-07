@@ -86,7 +86,7 @@ def main_start(filename):
     return summary, keywords
 
 global folder_path
-filename = st.text_input('Enter a file path:')
+file_path = st.text_input('Enter a file path:')
 s=[]
 k=[]
 f=[]
