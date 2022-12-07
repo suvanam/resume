@@ -1,5 +1,5 @@
 nltk
 spacy
 locationtagger
-tkinter
 yake
+
