@@ -4,3 +4,4 @@ pdfminer.six
 yake
 clean
 tfidf
+pytextrank
