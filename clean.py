@@ -1,7 +1,7 @@
 import nltk
 import re
 import string
-import locationtagger
+#import locationtagger
 import nltk
 from nltk import sent_tokenize, word_tokenize
 import pandas as pd
@@ -99,29 +99,6 @@ def clean_raw(rawtext):
 #   Remove emails and websites
     text = re.sub(r'https?:\/\/.\S+', " ", text)
     text = re.sub(r'\S*@\S*\s*', ' ', text)
-
-# remove cities, countries and regions
-
-    place_entity = locationtagger.find_locations(text = text)
-
-    text1=place_entity.cities
-    size=len(text1)
-    if size!=0:
-        for i in range(len(text1)):
-            
-            text=re.sub(r"\b{}\b".format(text[i]), " ", text)
-
-    text1=place_entity.countries
-    size=len(text1)
-    if size!=0:
-        for i in range(len(text1)):
-            text=re.sub(r"\b{}\b".format(text[i]), " ", text)
-            
-    text1=place_entity.regions
-    size=len(text1)
-    if size!=0:
-        for i in range(len(text1)):
-            text=re.sub(r"\b{}\b".format(text[i]), " ", text)
 
 # Remove duplicate sentences
     text=nltk.sent_tokenize(text)
