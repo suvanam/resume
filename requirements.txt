@@ -5,11 +5,3 @@ yake
 clean
 tfidf
 pytextrank
-tkinter
-string
-re
-pandas
-numpy
-warnings
-unicodedata
-math
