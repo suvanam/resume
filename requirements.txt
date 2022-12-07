@@ -5,3 +5,5 @@ yake
 clean
 tfidf
 pytextrank
+_tkinter
+_os
