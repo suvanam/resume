@@ -1,6 +1,6 @@
 nltk
 spacy
-locationtagger
+pdfminer.six
 yake
 clean
 tfidf
