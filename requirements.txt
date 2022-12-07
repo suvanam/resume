@@ -1,4 +1,3 @@
-os
 nltk
 spacy
 pdfminer.six
