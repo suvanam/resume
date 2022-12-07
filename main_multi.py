@@ -14,8 +14,6 @@ import numpy as np
 import yake
 from yake import KeywordExtractor
 import pandas as pd
-import tkinter
-from tkinter import filedialog
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -88,7 +86,7 @@ def main_start(filename):
     return summary, keywords
 
 global folder_path
-path = filedialog.askdirectory()
+filename = st.text_input('Enter a file path:')
 s=[]
 k=[]
 f=[]
