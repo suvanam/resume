@@ -105,7 +105,6 @@ for i in range(len(f)):
     w=[f[i],s[i],k[i]]
     q.append(w)
 df=pd.DataFrame (q, columns = (['fileno','summary', 'key']))
-df = pd.read_excel()
-df.to_excel('resume_summary.xlsx')
-print("Saved into Excel as file: resume_summary.xlsx")
+x=df['summary'].tolist()
+print("Saved into Excel as file: resume_summary.xlsx", x)
 
