@@ -14,7 +14,7 @@ import numpy as np
 import yake
 from yake import KeywordExtractor
 import pandas as pd
-import tkinter as tk
+import tkinter
 from tkinter import filedialog
 import warnings
 warnings.filterwarnings("ignore")
