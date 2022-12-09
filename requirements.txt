@@ -9,4 +9,3 @@ pycountry
 locationtagger
 clean
 tfidf
-file-select
