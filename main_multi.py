@@ -15,8 +15,6 @@ import numpy as np
 import yake
 from yake import KeywordExtractor
 import pandas as pd
-import tkinter as tk
-from tkinter import filedialog
 from docx2pdf import convert
 import shutil
 import warnings
