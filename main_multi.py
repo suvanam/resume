@@ -20,11 +20,6 @@ import shutil
 import warnings
 warnings.filterwarnings("ignore")
 import time
-import gensim
-from gensim import corpora
-from gensim.corpora.dictionary import Dictionary
-
-
 
 def main_start(filename):
     
