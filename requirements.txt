@@ -1,0 +1,9 @@
+streamlit
+nltk
+spacy
+pdfminer.six
+yake
+pytextrank
+clean
+tfidf
+docx2pdf
