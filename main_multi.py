@@ -1,4 +1,3 @@
-streamlit.report_thread.add_report_ctx(thread)
 print('Importing libraries...')
 import os
 import clean
