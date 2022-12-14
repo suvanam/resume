@@ -20,7 +20,7 @@ import shutil
 import warnings
 warnings.filterwarnings("ignore")
 import time
-
+@st.cache
 def main_start(filename):
     
     np.random.seed(1)
