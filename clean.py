@@ -10,7 +10,7 @@ import numpy as np
 
 import warnings
 warnings.filterwarnings("ignore")
-
+@st.cache
 def clean_raw(rawtext):
       
 #   remove \n and reconstruct sentences
