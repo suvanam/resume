@@ -108,8 +108,8 @@ def name_extract(rawtext):
         #print(doc[start:end]for match_id,start,end in matches)
     return ([doc[start:end]for match_id,start,end in matches])
 
-path = input('Enter folder path containing resumes:')
-sentnum=int(input("How many sentences in summary that you want (min 10, max 20)?"))
+path = st.text_input("Enter the full path where resumes are:", value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
+sentnum=int(st.text_input("How many sentence in summary you want? (min 10, max 20)", value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible"))
 # convert all docx to pdf
 convert(f"{path}")
 
