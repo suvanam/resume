@@ -10,7 +10,7 @@ import string
 import pytextrank
 import spacy
 
-
+@st.cache
 def tf_idf(sentence):
     
     sentence=sentence.replace(" ,", ", ")
